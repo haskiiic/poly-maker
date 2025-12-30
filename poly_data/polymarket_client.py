@@ -61,8 +61,7 @@ class PolymarketClient:
             host=host,
             key=key,
             chain_id=chain_id,
-            funder=self.browser_wallet,
-            signature_type=2
+            funder=self.browser_wallet
         )
 
         # Set up API credentials
